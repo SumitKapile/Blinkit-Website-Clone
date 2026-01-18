@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+header {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.headerleft {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding: 30px 30px;
+  border-right: 1px solid #ccc;
+}
+.headeraddress {
+  padding: 20px 30px;
+}
+.headeraddress h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.headeraddress p {
+  font-size: 14px;
+}
+.searchbox {
+  flex-grow: 1;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  display: flex;
+  border: 1px solid #f4f4f4;
+}
+.searchbox button {
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+}
+.searchbox input {
+  flex-grow: 1;
+
+  border: none;
+  background-color: transparent;
+}
+.searchbox input:focus {
+  outline: none;
+}
+.headerbtn {
+  gap: 40px;
+  display: flex;
+  margin-right: 40px;
+}
+.headerbtn button {
+  font-size: 16px;
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+}
+.headerbtn :last-child {
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(12, 131, 31);
+}
+.mycartbtn {
+  display: flex;
+  gap: 5px;
+}
+.mycartbtn .material-symbols-outlined {
+  font-size: 25px;
+  font-weight: bold;
+}
+.bannersection {
+  margin: 0px auto;
+  max-width: 1280px;
+}
+.bannersection img {
+  width: 100%;
+  height: auto;
+}
+.orderBanner {
+  display: flex;
+
+  max-width: 1280px;
+  margin: auto;
+}
+.orderbanneritems {
+  flex-basis: 27%;
+  margin: 1%;
+}
+.orderbanneritems img {
+  width: 100%;
+}
+.categorysection {
+  max-width: 1280px;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+}
+.categoryitem {
+  flex-basis: 10%;
+}
+.categoryitem img {
+  width: 100%;
+}
+.productsection {
+  max-width: 1280px;
+  margin: auto;
+  padding: 30px 0px;
+}
+.headingrow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.headingrow h2 {
+  font-size: 22px;
+}
+.headingrow a {
+  color: #328839;
+
+  font-size: 18px;
+}
+
+.productrow {
+  width: 100%;
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.productitem {
+  flex-basis: 15%;
+  box-shadow: 0px 0px 10px 2px #ebebeb;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.productimg {
+  text-align: center;
+  padding: 15px;
+}
+.productimg p {
+  width: 60px;
+  background-color: #f8f8f8;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  font-size: 12px;
+  text-align: left;
+}
+.productcontent h3 {
+  font-size: 16px;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* NUMBER OF LINES */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.productcontent {
+  padding: 15px;
+  padding-top: 0px;
+}
+.productcontent h3 {
+  padding-top: 10px;
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.productcontent p {
+  font-size: 14px;
+}
+.btn-price-outer {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-price-outer button {
+  border: 1px solid #328839;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #f7fff9;
+}
+.seeall {
+  text-decoration: none;
+}
+.footer {
+  padding: 40px 0 0 0;
+}
+.footer-mid {
+  max-width: 1280px;
+  margin: auto;
+}
+.footer-mid-row1 {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+.footer-mid-row1-left {
+  flex-basis: 30%;
+}
+.footer-mid-row1-left h3 {
+  margin-bottom: 20px;
+}
+.usefulinks {
+  display: flex;
+}
+.usefulinks ul {
+  flex-basis: 33%;
+  list-style: none;
+}
+.usefulinks ul a {
+  font-size: 14px;
+  display: block;
+  color: rgb(102, 102, 102);
+  margin-bottom: 15px;
+}
+.footer-mid-row1-right {
+  flex-basis: 70%;
+}
+.Categories-heding-row {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 15px;
+}
+.footer-mid-row2 {
+  background-color: #fcfcfc;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+.footer-mid-row2 p {
+  flex-basis: 40%;
+  font-size: 14px;
+  text-align: center;
+}
+.appicon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 30%;
+}
+.sociallinks {
+  display: flex;
+  gap: 10px;
+}
+
+.sociallinks i {
+  width: 40px;
+  height: 40px;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+}
+.footer-mid-row3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
